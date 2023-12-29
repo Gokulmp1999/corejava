@@ -1,5 +1,7 @@
 package java8;
 
 public interface DiamondProblem1 {
-    void display();
+    default void display() {
+        System.out.println("diamondProblem1");
+    }
 }

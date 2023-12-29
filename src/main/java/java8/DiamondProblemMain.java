@@ -6,8 +6,9 @@ public class DiamondProblemMain implements DiamondProblem1,DiamondProblem2{
         DiamondProblemMain main=new DiamondProblemMain();
         main.display();
     }
+
     @Override
     public void display() {
-        System.out.println("hai");
+        DiamondProblem2.super.display();
     }
 }

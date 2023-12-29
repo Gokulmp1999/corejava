@@ -11,7 +11,7 @@ public class Vowels {
         System.out.println("enter");
         String str=scanner.nextLine();
         List<String> vowels= Arrays.asList("a","e","i","o","u");
-        LinkedHashMap<String>
+
         char[] chars=str.toCharArray();
         for(int i=0;i<chars.length;i++){
             if(vowels.contains(chars[i])){

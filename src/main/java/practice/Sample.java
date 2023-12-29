@@ -48,7 +48,7 @@ public class Sample {
 //        System.out.println("nu "+nu);
         LocalDate date1 = LocalDate.of(2020, 7, 15);
         LocalDate date2 = LocalDate.of(2021, 8, 16);
-//        Long dif= ChronoUnit.DAYS.between(date1,date2);
+        Long diff= ChronoUnit.DAYS.between(date1,date2);
         Period dif = Period.between(date1, date2);
         int yr = dif.getYears();
         int d = dif.getDays();

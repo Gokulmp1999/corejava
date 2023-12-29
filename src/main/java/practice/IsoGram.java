@@ -3,7 +3,8 @@ package practice;
 import java.util.HashSet;
 import java.util.Set;
 
-public class IsoGram {
+public class
+IsoGram {
     public static void main(String[] args) {
        String str="penn";
        char[] s=str.toCharArray();
